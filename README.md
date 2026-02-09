@@ -76,23 +76,31 @@ usermanager
 
 1. Clone o repositório:
 
-git clone https://github.com/seu-usuario/gerenciador-usuarios.git
-cd gerenciador-usuarios
+```
+git clone https://github.com/MatheusVRodrigues0/UserMenager.git
+cd UserMenager
+```
 
 2. Clone o repositório:
 
-npm install
+```
+yarn install
+```
 
 3. Configure suas variáveis de ambiente (.env):
 
+```
 MONGO_URI=seu_mongodb_uri
 JWT_SECRET=sua_chave_secreta
 PORT=3000
+```
 
 4. Inicie a aplicação:
 
+```
 npx tsc
 yarn run start
+```
 
 ---
 
