@@ -69,6 +69,7 @@ usermanager
     │                   └───schema
     └───plugins
 ```
+
 ---
 
 ## Instalação
