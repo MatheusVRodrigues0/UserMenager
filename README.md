@@ -39,7 +39,7 @@ O principal objetivo deste projeto é:
 ---
 
 ## Estrutura do Projeto
-
+```
 usermanager
 └───src
     ├───error
@@ -68,7 +68,7 @@ usermanager
     │                   ├───mappers
     │                   └───schema
     └───plugins
-
+```
 ---
 
 ## Instalação
