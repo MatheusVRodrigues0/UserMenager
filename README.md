@@ -42,32 +42,32 @@ O principal objetivo deste projeto é:
 
 usermanager
 └───src
-    ├───error
-    ├───modules
-    │   └───user
-    │       ├───application
-    │       │   ├───dto
-    │       │   ├───mappers
-    │       │   ├───ports
-    │       │   └───useCases
-    │       ├───domain
-    │       │   └───entity
-    │       └───infrastructure
-    │           └───adapter
-    │               ├───in
-    │               │   ├───dto
-    │               │   └───handler
-    │               │       ├───auth-user
-    │               │       ├───create-user
-    │               │       ├───delete-user
-    │               │       ├───get-all-users
-    │               │       ├───get-user-by-id
-    │               │       └───update-user
-    │               └───out
-    │                   ├───dto
-    │                   ├───mappers
-    │                   └───schema
-    └───plugins
+├───error
+├───modules
+│ └───user
+│ ├───application
+│ │ ├───dto
+│ │ ├───mappers
+│ │ ├───ports
+│ │ └───useCases
+│ ├───domain
+│ │ └───entity
+│ └───infrastructure
+│ └───adapter
+│ ├───in
+│ │ ├───dto
+│ │ └───handler
+│ │ ├───auth-user
+│ │ ├───create-user
+│ │ ├───delete-user
+│ │ ├───get-all-users
+│ │ ├───get-user-by-id
+│ │ └───update-user
+│ └───out
+│ ├───dto
+│ ├───mappers
+│ └───schema
+└───plugins
 
 ---
 
