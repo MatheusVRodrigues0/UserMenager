@@ -1,0 +1,7 @@
+usuario
+  - email inalteravel
+  - desativar
+
+create
+update
+delete

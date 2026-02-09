@@ -1,0 +1,10 @@
+import fastify from "fastify";
+
+fastify
+declare module "fastify" {
+  interface FastifyInstance {
+    jwtAuth(request: FastifyRequest, reply: FastifyReply): Promise<void>;
+  }
+  
+}
+
