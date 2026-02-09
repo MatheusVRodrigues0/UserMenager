@@ -40,7 +40,7 @@ O principal objetivo deste projeto é:
 
 ## Estrutura do Projeto
 
-usermenager
+usermanager
 └───src
     ├───error
     ├───modules
