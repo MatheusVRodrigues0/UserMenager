@@ -1,11 +1,11 @@
 import { Password } from "./password-entity";
 
-export const roles = ['Admin','User'] as const 
+export const roles = ['Admin', 'User'] as const 
 export class User {
   public id?: string;
   public name: string;
   public email: string;
-  public role: typeof roles;
+  public role: (typeof roles)[number];
   public password?: Password;
   constructor(user: User) {
     this.name = user.name;
