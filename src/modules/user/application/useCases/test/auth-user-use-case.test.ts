@@ -12,6 +12,7 @@ import { ValidationError } from "../../../../../error/validationError"
 //     : T[K];
 // };
 //como que funciona isso?
+//tranforma todos os metodos da interface no tipo mock, com suas devidas entras e saidas tipadas
 type MockifyPartial<T> = Partial<{
   [K in keyof T]: T[K] extends (...args: any[]) => any
     ? jest.Mock<ReturnType<T[K]>, Parameters<T[K]>>
