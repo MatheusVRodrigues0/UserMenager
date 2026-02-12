@@ -9,7 +9,7 @@ export interface IUserSafe{
 export interface IUserUpdate{
   name: string,
   role: User['role']
-  password: string
+  password?: string
 }
 export interface IUserCreate{
   name: string,

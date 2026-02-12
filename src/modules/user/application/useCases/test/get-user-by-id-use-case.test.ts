@@ -3,7 +3,7 @@ import { UserRepositories } from "../../ports/user-port";
 import { GetUserByIdUseCase } from "../get-user-by-id-use-case";
 import { MockifyPartial } from "./mappers/instanceToInstanceMocked";
 
-test('should call userRepository delete', async()=>{
+test('should get User, and return UserOut, getUserByIdUseCase', async()=>{
     const user = new User({
       id: "123",
       name: 'matheus',
